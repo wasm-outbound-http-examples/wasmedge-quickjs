@@ -1,0 +1,9 @@
+{
+    "name": "wasmedge-quickjs: HTTP request from WASM",
+    "image": "ubuntu:jammy",
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils": {},
+        "ghcr.io/devcontainers/features/rust:1": {}
+    },
+    "postCreateCommand": "bash .devcontainer/postCreate.sh"
+}
